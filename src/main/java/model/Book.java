@@ -38,6 +38,10 @@ public class Book {
         this.year = year;
     }
 
+
+    public void print() {
+        System.out.println(title + " " + author);
+    }
     @Override
     public String toString() {
         return "Book{" +
