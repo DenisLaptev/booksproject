@@ -13,7 +13,7 @@ public class app {
 
         for (int i = 0; i < books.length; i++) {
             System.out.println(books[i]);
-            books[i].print();
+            //books[i].print();
         }
 
     }
