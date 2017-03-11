@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="artifactId" />
+        <module name="bookproject" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="artifactId" target="1.5" />
+      <module name="bookproject" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
